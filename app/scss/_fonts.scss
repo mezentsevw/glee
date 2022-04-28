@@ -30,3 +30,11 @@
    src: local('Rubik-Medium'),
       url('../fonts/Rubik-Medium.woff2') format('woff2') url('../fonts/Rubik-Medium.woff') format('woff')
 }
+
+@font-face {
+   font-family: 'Rubik-Regular', sans-serif;
+   font-weight: 500;
+   font-style: normal;
+   src: local('Rubik-Regular'),
+      url('../fonts/Rubik-Regular.woff2') format('woff2') url('../fonts/Rubik-Regular.woff') format('woff')
+}
