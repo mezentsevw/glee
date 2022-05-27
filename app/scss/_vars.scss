@@ -26,3 +26,10 @@ $title: #191919;
    font-family: 'Rubik-Regular', sans-serif;
    font-weight: 400;
 }
+
+%btn {
+   padding: 12px 26px;
+   color: #fff;
+   background-color: #a3bbc8;
+   @extend %rubik-500;
+}
