@@ -24,3 +24,33 @@ body {
 .main {
    flex-grow: 1;
 }
+
+.title {
+   margin-top: 65px;
+   color: $title;
+   font-size: 36px;
+   text-align: center;
+   @extend %dmsans-700;
+}
+
+
+ul.products__menu {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 35px 0 85px;
+}
+
+.products__nav+.products__nav {
+   padding-left: 30px;
+}
+
+.products__nav-link {
+   font-size: 16px;
+   color: #8b8b8b;
+   @extend %dmsans-700;
+}
+
+.products__nav-link:hover {
+   color: $title;
+}
